@@ -51,14 +51,14 @@
 
 @font-face {
   font-family: 'Nanum Flower';
-  src: url('./font/나눔손글씨\ 꽃내음.ttf') format('truetype');
+  src: url('./font/Nanum_Flower.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Nanum Donghwa';
-  src: url('./font/나눔손글씨\ 동화또박.ttf') format('truetype');
+  src: url('./font/Nanum_Donghwa.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
