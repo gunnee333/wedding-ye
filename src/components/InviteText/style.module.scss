@@ -2,11 +2,32 @@
   position: relative;
   text-align: center;
   align-items: center;
-  padding: 40px 0;
+  padding: 0 0 20px 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-family: 'GangwonEducationModuche';
+  font-family: 'NotoSans';
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 15px 20px;
+    background: linear-gradient(#939393, #ebebeb);
+    color: white;
+    margin-bottom: 40px;
+    white-space: pre-wrap;
+    font-weight: 700;
+
+    span {
+      margin-top: 10px;
+      font-size: 0.5rem;
+      white-space: pre-wrap;
+      font-weight: 400;
+    }
+  }
 
   .title {
     font-size: 1.6rem;

@@ -20,6 +20,19 @@ export default function Component() {
   return (
     <>
       <div className={styles.container} id={CONSTANT.ELEMENT_ID.HOME}>
+        <div className={styles.info}>
+          {moment(CONSTANT.date.dateISO).format('YYYY년 MM월 DD일')}, 토요일
+          오후 6시
+          {'\n'}
+          계산CN웨딩홀 2층 베르테홀
+          {'\n'}
+          <span>
+            On our wedding day, a new life begins. We'll share everything with
+            each other.
+            {'\n'}
+            Celevrate with us as we begin a lifetime of love
+          </span>
+        </div>
         <div className={styles.desc}>
           <p>우리들의 아름다운 시작,</p>
           <p>당신을 초대합니다.</p>

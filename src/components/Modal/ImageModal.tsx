@@ -58,9 +58,11 @@ export function ImageModal({ photos, index, onClose }: Props) {
     >
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
         <div className={styles.modalTop}>
-          <div className={styles.modalIndex}>
-            {currentIndex + 1} / {photos.length}
-          </div>
+          {photos.length > 1 && (
+            <div className={styles.modalIndex}>
+              {currentIndex + 1} / {photos.length}
+            </div>
+          )}
           <button
             className={styles.closeBtn}
             onClick={onClose}
@@ -90,22 +92,24 @@ export function ImageModal({ photos, index, onClose }: Props) {
           </Swiper>
         </div>
 
-        <div className={styles.arrowContainer}>
-          <button
-            className={[styles.iconBtn, styles.prev].join(' ')}
-            onClick={onPrev}
-            aria-label="이전 사진"
-          >
-            <Svgs.arrow fill="#ffffff" />
-          </button>
-          <button
-            className={[styles.iconBtn, styles.next].join(' ')}
-            onClick={onNext}
-            aria-label="다음 사진"
-          >
-            <Svgs.arrow fill="#ffffff" />
-          </button>
-        </div>
+        {photos.length > 1 && (
+          <div className={styles.arrowContainer}>
+            <button
+              className={[styles.iconBtn, styles.prev].join(' ')}
+              onClick={onPrev}
+              aria-label="이전 사진"
+            >
+              <Svgs.arrow fill="#ffffff" />
+            </button>
+            <button
+              className={[styles.iconBtn, styles.next].join(' ')}
+              onClick={onNext}
+              aria-label="다음 사진"
+            >
+              <Svgs.arrow fill="#ffffff" />
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

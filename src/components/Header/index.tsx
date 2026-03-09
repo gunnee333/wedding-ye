@@ -1,14 +1,18 @@
-import { Wedding, Svgs, Images } from '../../assets';
+import { Wedding } from '../../assets';
 import { CONSTANT } from '../../util';
 import styles from './style.module.scss';
-import './wave.css';
 
 export default function Component() {
   return (
     <div className={styles.container} id={CONSTANT.ELEMENT_ID.HOME}>
-      <img src={Wedding.photo1} alt="" />
-      <div className={styles.bottomAni}>
-        <Svgs.waves />
+      <img src={Wedding.main} alt="" />
+      <div className={styles.bottomText}>
+        <div className={styles.en}>
+          a<br />
+          celebration
+          <br />
+          of our Love
+        </div>
       </div>
     </div>
   );

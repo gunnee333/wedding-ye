@@ -9,7 +9,7 @@
   background-color: var(--background-color-1);
 
   .title {
-    font-family: serif;
+    font-family: 'Nanum Donghwa';
     color: var(--point-color);
     font-size: 1.6rem;
     padding: 0 20px;
@@ -18,9 +18,21 @@
   }
 
   .photo {
-    img {
-      width: 100%;
-      height: auto;
+    .swiper {
+      border-top: 1px solid var(--point-color);
+      border-bottom: 1px solid var(--point-color);
+      background-color: rgba(0, 0, 0, 0.1);
+
+      > div {
+        display: flex;
+        align-items: center;
+      }
+      .modalImg {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
     }
   }
 

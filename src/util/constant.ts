@@ -30,38 +30,38 @@ const constants = {
   groom: {
     name: '서동원',
     bank: '신한은행',
-    account: '1234',
+    account: '110-365755096',
     tel: '01084484346'
   } as IPergson,
   groomDad: {
-    name: '',
-    bank: '신한은행',
-    account: '1234',
-    tel: '010'
+    name: '서경석',
+    bank: '우리은행',
+    account: '1002-445-937472',
+    tel: '01076610247'
   } as IPergson,
   groomMom: {
-    name: '',
-    bank: '신한은행',
-    account: '1234',
-    tel: '010'
+    name: '이영숙',
+    bank: '농협',
+    account: '130049-52-132810',
+    tel: '01083394346'
   } as IPergson,
   bride: {
     name: '김예은',
-    bank: '신한은행',
-    account: '1234',
+    bank: 'IBK기업은행',
+    account: '23311120501017',
     tel: '01051031952'
   } as IPergson,
   brideDad: {
-    name: '',
-    bank: '신한은행',
-    account: '1234',
-    tel: '010'
+    name: '김정식',
+    bank: '국민은행',
+    account: '816-240204-585',
+    tel: '01037415730'
   } as IPergson,
   brideMom: {
-    name: '',
-    bank: '신한은행',
-    account: '1234',
-    tel: '010'
+    name: '박은희',
+    bank: '국민은행',
+    account: '720501-01-100520',
+    tel: '01063241952'
   } as IPergson
 };
 

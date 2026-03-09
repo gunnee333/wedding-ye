@@ -5,11 +5,27 @@
     width: 100%;
   }
 
-  .bottomAni {
+  .bottomText {
     position: absolute;
-    bottom: 0;
+    bottom: 40px;
     left: 0;
     right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .en {
+      font-family: 'Tuesday Night';
+      font-size: 3.5rem;
+      line-height: 100%;
+      text-align: center;
+      color: white;
+
+      > span {
+        width: 10px;
+      }
+    }
   }
 
   .background {

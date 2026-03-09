@@ -49,6 +49,7 @@ export default function Component() {
               swiperRef.current = swiper;
               swiper.slideTo(currentIndex, 0);
             }}
+            loop
             onSlideChange={(e) => setCurrentIndex(e.activeIndex)}
           >
             {images.map((item, index) => (
