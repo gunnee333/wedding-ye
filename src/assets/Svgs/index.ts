@@ -1,0 +1,10 @@
+export { default as tel } from './Tel';
+export { default as sms } from './Sms';
+export { default as waves } from './Waves';
+export { default as copy } from './Copy';
+export { default as arrow } from './Arrow';
+export { default as close } from './Close';
+export { default as menu } from './Menu';
+export { default as share } from './Share';
+export { default as kakao } from './Kakao';
+export { default as text } from './Text';

@@ -1,0 +1,88 @@
+.container {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'GangwonEducationModuche';
+
+  .title {
+    font-size: 1.6rem;
+    line-height: 160%;
+    color: var(--point-color);
+    font-weight: 700;
+  }
+  .desc {
+    font-size: 1rem;
+    line-height: 160%;
+    color: var(--point-color);
+    font-weight: 700;
+  }
+  .date {
+    font-size: 1.2rem;
+    line-height: 160%;
+    color: var(--point-color);
+    font-weight: 700;
+  }
+
+  button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 15px;
+    background-color: var(--pink-color);
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 30px;
+    min-width: 200px;
+  }
+}
+
+.modal {
+  background-color: white;
+  border-radius: 10px;
+
+  .list {
+    padding: 25px 25px 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px 0;
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      width: 50%;
+      align-items: center;
+      justify-content: center;
+
+      .title {
+        white-space: pre-wrap;
+        text-align: center;
+      }
+
+      .name {
+        font-weight: 600;
+      }
+
+      .btnList {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        .btn {
+          background-color: var(--background-color-1);
+          padding: 4px 8px;
+          border-radius: 50px;
+          font-size: 0.8rem;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 10px;
+
+  .title {
+    font-family: serif;
+    color: var(--point-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .toggle {
+    background-color: white;
+    width: 100%;
+    border: 1px solid var(--point-color2);
+    border-radius: 6px;
+
+    &.active {
+      > div:nth-child(1) {
+        svg {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    > div:nth-child(1) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: var(--point-color2);
+      padding: 10px 15px;
+      cursor: pointer;
+
+      svg {
+        width: 20px;
+        transition: transform 0.3s;
+      }
+    }
+    .toggleDiv {
+      max-height: 1000px;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    &:not(.active) {
+      > div:nth-child(1) {
+        border-bottom-width: 0px;
+        transition: border-bottom-width 0.5s ease-in;
+      }
+      .toggleDiv {
+        max-height: 0px;
+      }
+    }
+
+    .toggleItem {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 15px;
+
+      &:not(:last-child) {
+        border-bottom: 1px dashed var(--point-color2);
+      }
+
+      > div:nth-child(1) {
+        line-height: 180%;
+      }
+
+      > div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 4px;
+      }
+
+      .copyBtn {
+        margin-left: 8px;
+        display: inline-block;
+        font-size: 10px;
+
+        svg {
+          width: 16px;
+        }
+      }
+    }
+  }
+}

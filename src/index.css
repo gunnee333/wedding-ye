@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --page-width: 440px;
+  --background-color: #fff;
+  --background-color-1: #fdf3f1;
+  --background-color-2: #fdf8f4;
+  --gray-color1: #cccccc;
+  --gray-color2: #eeeeee;
+  --gray-color3: #222222;
+  --point-color: #462d2d;
+  --point-color2: #f9f5f5;
+  --pink-color: #d7a59e;
+  --page-background-color: #fdfafa;
+  --page-background-color2: #fbf5f5;
+  --view-width: min(100vw, var(--page-width));
+  --DEVICE-HEIGHT: 100svh;
+  --menu-height: 50px;
+  --font-scale: 1;
+  font-size: calc(16px * var(--font-scale));
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-color);
+  max-width: 100%;
+  touch-action: manipulation;
+}
+
+/* =========================
+   Disable zoom & drag/select
+   ========================= */
+
+/* PC/모바일 공통: 텍스트 선택(드래그) 방지 */
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* iOS: 길게 눌러 복사/돋보기/콜아웃 방지 */
+body {
+  -webkit-touch-callout: none;
+}
+
+/* 이미지 드래그 방지(PC에서 이미지 끌어오기 방지) */
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+/* 더블탭 확대 억제(일부 모바일 브라우저) */
+* {
+  touch-action: manipulation;
+}
+
+/* 입력 요소는 선택/커서 가능해야 함 */
+input,
+textarea {
+  -webkit-user-select: text !important;
+  user-select: text !important;
+  touch-action: auto !important;
 }

@@ -1,7 +1,7 @@
 const QRCode = require('qrcode');
 const fs = require('fs');
 
-const url = 'https://gunnee333.github.io/wedding-hb';
+const url = 'https://gunnee333.github.io/wedding-ye';
 
 (async () => {
   const png = await QRCode.toBuffer(url, {

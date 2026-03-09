@@ -1,0 +1,54 @@
+.cut-wrapper {
+  position: relative;
+  width: 100%;
+  height: 90px; /* 기존의 절반 수준 */
+  overflow: hidden;
+  line-height: 0;
+}
+
+.cut-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.cut {
+  fill: white;
+  transform-origin: bottom;
+}
+
+/* 뒤 레이어 */
+.back {
+  opacity: 0.6;
+  animation: floatBack 5.2s ease-in-out infinite;
+}
+
+/* 앞 레이어 */
+.front {
+  opacity: 0.95;
+  animation: floatFront 4.6s ease-in-out infinite;
+}
+
+@keyframes floatBack {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.04);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes floatFront {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.96);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}

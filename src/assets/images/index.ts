@@ -1,0 +1,10 @@
+export { default as map } from './map.jpg';
+export { default as kakaopay } from './kpay_a.jpeg';
+export { default as kakaoNav } from './kakao-nav.jpeg';
+export { default as naverMap } from './naver-map.jpeg';
+export { default as tmap } from './tmap.jpeg';
+export { default as inviteQr } from './invite-qr.png';
+export { default as car } from './car.png';
+export { default as bus } from './bus.png';
+export { default as train } from './train.png';
+export { default as background } from './background.png';
