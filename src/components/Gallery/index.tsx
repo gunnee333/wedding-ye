@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { Wedding } from '../../assets';
 import styles from './style.module.scss';
 import { CONSTANT } from '../../util';
@@ -50,6 +50,7 @@ export default function Component() {
           <Swiper
             className={styles.swiper}
             spaceBetween={0}
+            initialSlide={0}
             slidesPerView="auto"
             threshold={10}
             centeredSlides={true}
@@ -58,11 +59,13 @@ export default function Component() {
             }}
             loop
             modules={[Zoom]}
-            zoom={true}
+            zoom={{ maxRatio: 2 }}
           >
             {images.map((item, index) => (
               <SwiperSlide key={index} className={styles.modalImg}>
-                <img src={item} alt={`사진 ${index + 1}`} />
+                <div className="swiper-zoom-container">
+                  <img src={item} alt={`사진 ${index + 1}`} />
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
