@@ -1,11 +1,12 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Wedding } from '../../assets';
 import styles from './style.module.scss';
 import { CONSTANT } from '../../util';
 import SwiperCore from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Zoom } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/zoom';
 
 const images: string[] = [
   Wedding.photo1,
@@ -31,8 +32,15 @@ const images: string[] = [
 ];
 
 export default function Component() {
-  const [currentIndex, setCurrentIndex] = useState(0);
   const swiperRef = useRef<SwiperCore | null>(null);
+
+  function slide(index: number) {
+    swiperRef.current?.slideTo(index, 0);
+  }
+
+  useEffect(() => {
+    slide(0);
+  }, []);
 
   return (
     <>
@@ -47,26 +55,21 @@ export default function Component() {
             centeredSlides={true}
             onSwiper={(swiper) => {
               swiperRef.current = swiper;
-              swiper.slideTo(currentIndex, 0);
             }}
             loop
-            onSlideChange={(e) => setCurrentIndex(e.activeIndex)}
+            modules={[Zoom]}
+            zoom={true}
           >
             {images.map((item, index) => (
               <SwiperSlide key={index} className={styles.modalImg}>
-                <img src={item} alt={`확대 사진 ${index + 1}`} />
+                <img src={item} alt={`사진 ${index + 1}`} />
               </SwiperSlide>
             ))}
           </Swiper>
         </div>
         <div className={styles.listContainer}>
           {images.map((item, index) => (
-            <div
-              key={index}
-              onClick={() => {
-                swiperRef.current?.slideTo(index, 0);
-              }}
-            >
+            <div key={index} onClick={() => slide(index)}>
               <img src={item} />
             </div>
           ))}
