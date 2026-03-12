@@ -5,8 +5,8 @@
   padding: 0 0 20px 0;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  font-family: 'NotoSans';
+  gap: 20px;
+  font-family: 'Seoul Hangang';
 
   .info {
     display: flex;
@@ -30,22 +30,27 @@
   }
 
   .title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 160%;
     color: var(--point-color);
-    font-weight: 700;
   }
   .desc {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 160%;
     color: var(--point-color);
-    font-weight: 700;
-  }
-  .date {
-    font-size: 1.2rem;
-    line-height: 160%;
-    color: var(--point-color);
-    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    > div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      &:nth-child(1) {
+        margin-top: 8px;
+      }
+    }
   }
 
   button {

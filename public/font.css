@@ -11,54 +11,20 @@
 }
 
 @font-face {
-  font-family: 'Decorate';
-  src: url('Decorate-Regular.eot');
+  font-family: 'Seoul Hangang';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
   src:
-    local('Decorate'),
-    local('Decorate-Regular'),
-    url('./font/Decorate-Regular.eot?#iefix') format('embedded-opentype'),
-    url('./font/Decorate-Regular.woff2') format('woff2'),
-    url('./font/Decorate-Regular.woff') format('woff'),
-    url('./font/Decorate-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    url('./font/SeoulHangang-Medium.woff2') format('woff2'),
+    url('./font/SeoulHangang-Medium.woff') format('woff'),
+    url('./font/SeoulHangang-Medium.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Circular Std';
-  src:
-    local('Circular Std Book Italic'),
-    local('Circular-Std-Book-Italic'),
-    url('./font/CircularStd-BookItalic.woff2') format('woff2'),
-    url('./font/CircularStd-BookItalic.woff') format('woff'),
-    url('./font/CircularStd-BookItalic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'AmpleSoft Pro';
-  src: url('./font/AmpleSoftPro-Regular.eot');
-  src:
-    local('AmpleSoftPro-Regular'),
-    url('./font/AmpleSoftPro-Regular.eot?#iefix') format('embedded-opentype'),
-    url('./font/AmpleSoftPro-Regular.woff2') format('woff2'),
-    url('./font/AmpleSoftPro-Regular.woff') format('woff'),
-    url('./font/AmpleSoftPro-Regular.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Playwrite';
+  font-weight: 300;
   font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nanum Flower';
-  src: url('./font/Nanum_Flower.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nanum Donghwa';
-  src: url('./font/Nanum_Donghwa.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-display: swap;
+  src: url('./font/PlaywriteUSTrad-VariableFont_wght.ttf') format('truetype');
 }

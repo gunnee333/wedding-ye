@@ -1,4 +1,4 @@
-import { Wedding } from '../../assets';
+import { Images, Wedding } from '../../assets';
 import { CONSTANT } from '../../util';
 import styles from './style.module.scss';
 
@@ -8,11 +8,15 @@ export default function Component() {
       <img src={Wedding.main} alt="" />
       <div className={styles.bottomText}>
         <div className={styles.en}>
-          a<br />
-          celebration
+          Our
           <br />
-          of our Love
+          Beautiful
+          <br />
+          Day
         </div>
+      </div>
+      <div className={styles.background}>
+        <img src={Images.flower} alt="flower" />
       </div>
     </div>
   );

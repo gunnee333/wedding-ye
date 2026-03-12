@@ -3,8 +3,9 @@ import styles from './imageModal.module.scss';
 import { Svgs } from '../../assets';
 import SwiperCore from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Zoom } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/zoom';
 
 type Props = {
   photos: { url: string; index: number }[];
@@ -76,17 +77,21 @@ export function ImageModal({ photos, index, onClose }: Props) {
             className={styles.swiper}
             spaceBetween={0}
             slidesPerView="auto"
-            threshold={10}
             centeredSlides={true}
             onSwiper={(swiper) => {
               swiperRef.current = swiper;
               swiper.slideTo(currentIndex, 0);
             }}
             onSlideChange={(e) => setCurrentIndex(e.activeIndex)}
+            modules={[Zoom]}
+            zoom={{ maxRatio: 2 }}
+            loop
           >
             {photos.map(({ url, index: i }) => (
               <SwiperSlide key={i} className={styles.modalImg}>
-                <img src={url} alt={`확대 사진 ${i + 1}`} />
+                <div className="swiper-zoom-container">
+                  <img src={url} alt={`확대 사진 ${i + 1}`} />
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>

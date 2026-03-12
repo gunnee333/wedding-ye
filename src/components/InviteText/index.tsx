@@ -30,22 +30,50 @@ export default function Component() {
             On our wedding day, a new life begins. We'll share everything with
             each other.
             {'\n'}
-            Celevrate with us as we begin a lifetime of love
+            Celebrate with us as we begin a lifetime of love
           </span>
         </div>
+        <div className={styles.title}>결혼합니다.</div>
         <div className={styles.desc}>
-          <p>우리들의 아름다운 시작,</p>
-          <p>당신을 초대합니다.</p>
-        </div>
-        <div className={styles.title}>
-          {CONSTANT.groom.name.slice(1, 3)} & {CONSTANT.bride.name.slice(1, 3)}
+          평생 함께
+          <br />
+          같은 식탁에 앉을 사람을 만났습니다.
+          <br />
+          그래서 결혼합니다.
+          <br />
+          <br />
+          소망이 축복 속에서
+          <br />
+          기쁨으로 이루어지는 날,
+          <br />
+          저희 두 사람이 하나가 됩니다.
+          <br />
+          <br />
+          뜻깊은 이 날,
+          <br />
+          소중한 분들과 기쁨을 나누고자 하오니
+          <br />
+          귀한 걸음 하시어
+          <br />
+          따뜻하게 축복해 주시면 감사하겠습니다.
         </div>
         <div className={styles.desc}>
-          <p>Wedding</p>
-          <p>결혼합니다</p>
-        </div>
-        <div className={styles.date}>
-          {moment(CONSTANT.date.dateISO).format('YYYY.MM.DD')}
+          <div>
+            <div>
+              {CONSTANT.groomDad.name}
+              <br />
+              {CONSTANT.groomMom.name}
+            </div>
+            <span>의 장남 {CONSTANT.groom.name}</span>
+          </div>
+          <div>
+            <div>
+              {CONSTANT.brideDad.name}
+              <br />
+              {CONSTANT.brideMom.name}
+            </div>
+            <span>의 차녀 {CONSTANT.bride.name}</span>
+          </div>
         </div>
         <div>
           <button onClick={() => setIsModal(true)}>

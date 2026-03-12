@@ -9,7 +9,6 @@
   background-color: var(--background-color-1);
 
   .title {
-    font-family: 'Nanum Donghwa';
     color: var(--point-color);
     font-size: 1.6rem;
     padding: 0 20px;
@@ -17,37 +16,23 @@
     margin-bottom: 10px;
   }
 
-  .photo {
-    .swiper {
-      border-top: 1px solid var(--point-color);
-      border-bottom: 1px solid var(--point-color);
-      background-color: rgba(0, 0, 0, 0.1);
-
-      > div {
-        display: flex;
-        align-items: center;
-      }
-      .modalImg {
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
-    }
-  }
-
   .listContainer {
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    flex-wrap: wrap;
+    gap: 10px;
     padding: 0 20px 20px;
-    overflow-x: auto;
     width: 100%;
+
+    .photoItem {
+      width: calc(calc(100% - 20px) / 3);
+      height: calc(calc(100% - 20px) / 3);
+    }
 
     img {
       object-fit: cover;
-      width: 50px;
-      height: 50px;
+      width: 100%;
+      aspect-ratio: 1;
       border-radius: 4px;
     }
   }
