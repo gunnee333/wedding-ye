@@ -34,13 +34,6 @@ export function ImageModal({ photos, index, onClose }: Props) {
   }
 
   useEffect(() => {
-    setCurrentIndex(index);
-    if (index) {
-      swiperRef.current?.slideTo(index, 0);
-    }
-  }, [index]);
-
-  useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
       if (e.key === 'ArrowLeft') onPrev();
@@ -76,6 +69,7 @@ export function ImageModal({ photos, index, onClose }: Props) {
           <Swiper
             className={styles.swiper}
             spaceBetween={0}
+            initialSlide={currentIndex}
             slidesPerView="auto"
             centeredSlides={true}
             onSwiper={(swiper) => {

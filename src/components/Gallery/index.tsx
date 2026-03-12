@@ -42,7 +42,7 @@ export default function Component() {
               className={styles.photoItem}
               onClick={() => setOpenIndex(index)}
             >
-              <img src={item} alt="wedding" />
+              <img src={item} alt={`wedding_${index}`} />
             </div>
           ))}
         </div>
