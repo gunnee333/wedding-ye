@@ -73,7 +73,7 @@ export function ImageModal({ photos, index, onClose }: Props) {
             slidesPerView="auto"
             centeredSlides={true}
             onSwiper={(swiper) => (swiperRef.current = swiper)}
-            onSlideChange={(e) => setCurrentIndex(e.activeIndex)}
+            onSlideChange={(e) => setCurrentIndex(e.realIndex)}
             modules={[Zoom]}
             zoom={{ maxRatio: 2 }}
             loop
