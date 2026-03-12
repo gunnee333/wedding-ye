@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding-ye/static/css/main.0592db50.css",
-    "main.js": "/wedding-ye/static/js/main.59baaa2f.js",
+    "main.css": "/wedding-ye/static/css/main.f1f09d7b.css",
+    "main.js": "/wedding-ye/static/js/main.25f602f6.js",
     "static/js/453.e61543b3.chunk.js": "/wedding-ye/static/js/453.e61543b3.chunk.js",
     "static/media/photo12.jpeg": "/wedding-ye/static/media/photo12.16d5f453b25d8d1ee730.jpeg",
     "static/media/photo11.jpeg": "/wedding-ye/static/media/photo11.5c1b8343a9e515e5295b.jpeg",
@@ -16,6 +16,7 @@
     "static/media/photo21.jpeg": "/wedding-ye/static/media/photo21.a643be2ffaa9e3da32ff.jpeg",
     "static/media/main.jpeg": "/wedding-ye/static/media/main.38b4a28536cf858320b3.jpeg",
     "static/media/photo13.jpeg": "/wedding-ye/static/media/photo13.3757c25a94fa194e87e9.jpeg",
+    "static/media/mainBackground.png": "/wedding-ye/static/media/mainBackground.fc0f12514e0bef91c0a3.png",
     "static/media/photo04.jpeg": "/wedding-ye/static/media/photo04.de2e3550ca186a226fe6.jpeg",
     "static/media/photo17.jpeg": "/wedding-ye/static/media/photo17.af9e2f12aa29fd87c5b1.jpeg",
     "static/media/photo01.jpeg": "/wedding-ye/static/media/photo01.4b4b2b98572214294f44.jpeg",
@@ -28,12 +29,12 @@
     "static/media/photo07.jpeg": "/wedding-ye/static/media/photo07.035448c6c261d1097ece.jpeg",
     "static/media/photo06.jpeg": "/wedding-ye/static/media/photo06.03eaf126aa5daf2bd2b8.jpeg",
     "index.html": "/wedding-ye/index.html",
-    "main.0592db50.css.map": "/wedding-ye/static/css/main.0592db50.css.map",
-    "main.59baaa2f.js.map": "/wedding-ye/static/js/main.59baaa2f.js.map",
+    "main.f1f09d7b.css.map": "/wedding-ye/static/css/main.f1f09d7b.css.map",
+    "main.25f602f6.js.map": "/wedding-ye/static/js/main.25f602f6.js.map",
     "453.e61543b3.chunk.js.map": "/wedding-ye/static/js/453.e61543b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0592db50.css",
-    "static/js/main.59baaa2f.js"
+    "static/css/main.f1f09d7b.css",
+    "static/js/main.25f602f6.js"
   ]
 }
