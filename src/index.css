@@ -1,8 +1,8 @@
 :root {
   --page-width: 440px;
   --background-color: #fff;
-  --background-color-1: #fdf3f1;
-  --background-color-2: #fdf8f4;
+  --background-color-1: #fdf8f4;
+  --background-color-2: #fff;
   --gray-color1: #cccccc;
   --gray-color2: #eeeeee;
   --gray-color3: #222222;
@@ -10,7 +10,6 @@
   --point-color2: #f9f5f5;
   --pink-color: #d7a59e;
   --page-background-color: #fdfafa;
-  --page-background-color2: #fbf5f5;
   --view-width: min(100vw, var(--page-width));
   --DEVICE-HEIGHT: 100svh;
   --menu-height: 50px;

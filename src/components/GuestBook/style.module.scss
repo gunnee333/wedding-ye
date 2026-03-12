@@ -17,10 +17,10 @@
     flex-direction: column;
     gap: 8px;
     width: 100%;
-    background-color: white;
     padding: 10px;
     position: relative;
     margin-top: 15px;
+    background-color: var(--background-color-1);
 
     .inputContainer {
       display: flex;
@@ -31,8 +31,8 @@
       .input {
         min-height: 40px;
         flex: 1;
-        border: 1px solid var(--background-color-1);
-        border-radius: 10px;
+        border: 1px solid var(--gray-color2);
+        border-radius: 4px;
         width: 100%;
         padding: 10px 12px;
         font-size: 0.8rem;
@@ -41,8 +41,8 @@
 
       .textarea {
         flex: 1;
-        border: 1px solid var(--background-color-1);
-        border-radius: 10px;
+        border: 1px solid var(--gray-color2);
+        border-radius: 4px;
         width: 100%;
         font-size: 0.8rem;
         line-height: 190%;
@@ -78,8 +78,8 @@
           transform 120ms ease,
           filter 120ms ease,
           opacity 120ms ease;
-        border: 1px solid var(--point-color2);
-        background-color: var(--page-background-color);
+        border: 1px solid var(--gray-color2);
+        background-color: white;
       }
     }
   }

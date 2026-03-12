@@ -38,9 +38,9 @@ export default function Component() {
       <div className={styles.container} id={CONSTANT.ELEMENT_ID.CALENDAR}>
         <div className={styles.title}>Calendar</div>
         <div className={styles.date}>
-          {moment(CONSTANT.date.dateISO).format('YYYY. MM. DD(토) HH시')}
+          {moment(CONSTANT.date.dateISO).format('YYYY. MM. DD. (토) HH시')}
         </div>
-        <div className={styles.desc}>
+        {/* <div className={styles.desc}>
           {d.days === 0 ? (
             <div>
               오늘은 {CONSTANT.groom.name.slice(1, 3)} <span>♥</span>{' '}
@@ -58,7 +58,7 @@ export default function Component() {
               {String(d.secs).padStart(2, '0')}초 남았습니다.
             </div>
           )}
-        </div>
+        </div> */}
         <div className={styles.tableContainer}>
           <div className={styles.date}>
             {moment(CONSTANT.date.dateISO).format('YYYY. MM.')}

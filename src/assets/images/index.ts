@@ -7,5 +7,5 @@ export { default as inviteQr } from './invite-qr.png';
 export { default as car } from './car.png';
 export { default as bus } from './bus.png';
 export { default as train } from './train.png';
-export { default as background } from './background.png';
 export { default as effect } from './effect.png';
+export { default as mainBackground } from './mainBackground.png';
