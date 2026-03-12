@@ -93,21 +93,16 @@ export default function Component() {
           <table>
             <tbody>
               <tr>
-                <th>
-                  <img src={Images.train} alt="지하철이미지" width={30} />
-                  지하철
-                </th>
+                <th>지하철</th>
                 <td>
                   <div>
-                    <span style={{ color: '#6f99d0' }}>인천지하철</span> 계산역
+                    <span style={{ color: '#497bbd' }}>인천지하철</span> 계산역
                     4번 출구
                   </div>
                 </td>
               </tr>
               <tr>
-                <th>
-                  <img src={Images.bus} alt="버스이미지" width={30} /> 버스
-                </th>
+                <th>버스</th>
                 <td className={styles.bus}>
                   <div className={styles.blue}>
                     - 간선 <span>24-1</span> <span>30</span> <span>79</span>{' '}
@@ -131,9 +126,7 @@ export default function Component() {
                 </td>
               </tr>
               <tr>
-                <th>
-                  <img src={Images.car} alt="차이미지" width={30} /> 주차
-                </th>
+                <th>주차</th>
                 <td>
                   <b>2시간</b> 무료주차
                 </td>

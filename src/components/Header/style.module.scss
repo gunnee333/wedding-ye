@@ -2,8 +2,10 @@
   position: relative;
   overflow: hidden;
 
-  img {
-    width: 100%;
+  .img {
+    width: var(--view-width);
+    height: auto;
+    object-fit: cover;
   }
 
   .bottomText {
@@ -18,16 +20,29 @@
     justify-content: center;
     text-align: center;
     color: #ffffff;
-    gap: 6px;
-    background: linear-gradient(#ffffff00, #6e6e6e);
+    gap: 18px;
+    background: linear-gradient(#ffffff00, #4c4c4ccc);
 
-    > div:nth-child(1) {
+    .title {
       font-size: 1.4rem;
       line-height: 140%;
     }
-    > div:nth-child(2) {
+    .desc {
       font-size: 0.8rem;
       line-height: 160%;
+    }
+  }
+
+  .topBackground {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
     }
   }
 

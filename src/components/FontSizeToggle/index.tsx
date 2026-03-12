@@ -1,4 +1,4 @@
-import { Svgs } from '../../assets';
+import { Images } from '../../assets';
 import { useFontSize } from '../../context/FontSizeContext';
 import styles from './style.module.scss';
 
@@ -16,10 +16,9 @@ export default function Component() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.fontToggle}>
-        <Svgs.text />
-
+        <img src={Images.search} alt="확대" />
         <button className={styles.fontBtn} onClick={toggle} type="button">
-          {mode === 'small' ? '큰' : '작은'} 글씨
+          글씨 {mode === 'small' ? '크게' : '작게'} 보기
         </button>
       </div>
     </div>

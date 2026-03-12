@@ -12,7 +12,6 @@
   --page-background-color: #fdfafa;
   --view-width: min(100vw, var(--page-width));
   --DEVICE-HEIGHT: 100svh;
-  --menu-height: 50px;
   --font-scale: 1;
   font-size: calc(16px * var(--font-scale));
 }

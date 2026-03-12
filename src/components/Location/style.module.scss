@@ -8,8 +8,7 @@
 
   .title {
     color: var(--point-color);
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-size: 1.2rem;
   }
 
   .desc {
@@ -105,26 +104,31 @@
 
           &.bus {
             div > span {
-              padding: 2px 6px;
-              line-height: 130%;
+              padding: 0 2px;
               border-radius: 10px;
               color: white;
               font-weight: 600;
+
+              &:not(:nth-last-child(1)) {
+                &::after {
+                  content: ',';
+                }
+              }
             }
 
             .blue {
               span {
-                background-color: #386de8;
+                color: #0078cb;
               }
             }
             .red {
               span {
-                background-color: #fb5852;
+                color: #ff5f45;
               }
             }
             .green {
               span {
-                background-color: #87c700;
+                color: #54b800;
               }
             }
           }

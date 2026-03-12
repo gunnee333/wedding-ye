@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Svgs } from '../../assets';
+import { Images, Svgs } from '../../assets';
 import styles from './style.module.scss';
 import moment from 'moment';
 import { CONSTANT } from '../../util';
@@ -100,8 +100,11 @@ export default function Component() {
                 <td>13</td>
                 <td>14</td>
                 <td>15</td>
-                <td className={styles.active}>
-                  <span>16</span>
+                <td>
+                  <div className={styles.heart}>
+                    <img src={Images.heart} />
+                  </div>
+                  <div>16</div>
                 </td>
               </tr>
               <tr>

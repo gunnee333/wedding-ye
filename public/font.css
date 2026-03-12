@@ -1,16 +1,4 @@
 @font-face {
-  font-family: 'Tuesday Night';
-  src:
-    local('Tuesday Night Regular'),
-    local('Tuesday-Night-Regular'),
-    url('./font/TuesdayNight-Regular.woff2') format('woff2'),
-    url('./font/TuesdayNight-Regular.woff') format('woff'),
-    url('./font/TuesdayNight-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Seoul Hangang';
   font-weight: 400;
   font-style: normal;
@@ -19,12 +7,4 @@
     url('./font/SeoulHangang-Medium.woff2') format('woff2'),
     url('./font/SeoulHangang-Medium.woff') format('woff'),
     url('./font/SeoulHangang-Medium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Playwrite';
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-  src: url('./font/PlaywriteUSTrad-VariableFont_wght.ttf') format('truetype');
 }

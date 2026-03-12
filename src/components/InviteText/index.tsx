@@ -26,27 +26,26 @@ export default function Component() {
         </div>
         <div className={styles.title}>Our Beginning</div>
         <div className={styles.desc}>
-          평생 함께
+          평생 함께 같은 식탁에 앉아
           <br />
-          같은 식탁에 앉을 사람을 만났습니다.
+          소소한 일상을 나눌
           <br />
-          그래서 결혼합니다.
-          <br />
-          <br />
-          소망이 축복 속에서
-          <br />
-          기쁨으로 이루어지는 날,
-          <br />
-          저희 두 사람이 하나가 됩니다.
+          사람을 만났습니다.
           <br />
           <br />
-          뜻깊은 이 날,
+          서로에게 가장 따뜻한 사람이
           <br />
-          소중한 분들과 기쁨을 나누고자 하오니
+          되기로 약속하며
           <br />
-          귀한 걸음 하시어
+          두 사람이 하나 되는 날,
           <br />
-          따뜻하게 축복해 주시면 감사하겠습니다.
+          <br />
+          귀한 걸음으로 오셔서
+          <br />
+          따뜻한 축복으로
+          <br />
+          함께해 주시면 감사하겠습니다.
+          <br />
         </div>
         <div className={styles.desc}>
           <div>

@@ -6,4 +6,3 @@ export { default as close } from './Close';
 export { default as menu } from './Menu';
 export { default as share } from './Share';
 export { default as kakao } from './Kakao';
-export { default as text } from './Text';

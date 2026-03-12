@@ -9,3 +9,5 @@ export { default as bus } from './bus.png';
 export { default as train } from './train.png';
 export { default as effect } from './effect.png';
 export { default as mainBackground } from './mainBackground.png';
+export { default as heart } from './heart.png';
+export { default as search } from './search.png';

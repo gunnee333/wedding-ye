@@ -5,3 +5,4 @@ export { default as Gallery } from './Gallery';
 export { default as GuestBook } from './GuestBook';
 export { default as InviteText } from './InviteText';
 export { default as Location } from './Location';
+export { default as FontSizeToggle } from './FontSizeToggle';
