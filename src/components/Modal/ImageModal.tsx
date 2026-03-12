@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/zoom';
 
 type Props = {
-  photos: { url: string; index: number }[];
+  photos: string[];
   index: number;
   onClose: () => void;
 };
@@ -87,7 +87,7 @@ export function ImageModal({ photos, index, onClose }: Props) {
             zoom={{ maxRatio: 2 }}
             loop
           >
-            {photos.map(({ url, index: i }) => (
+            {photos.map((url, i) => (
               <SwiperSlide key={i} className={styles.modalImg}>
                 <div className="swiper-zoom-container">
                   <img src={url} alt={`확대 사진 ${i + 1}`} />

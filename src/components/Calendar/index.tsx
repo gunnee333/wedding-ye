@@ -36,7 +36,7 @@ export default function Component() {
   return (
     <>
       <div className={styles.container} id={CONSTANT.ELEMENT_ID.CALENDAR}>
-        <div className={styles.title}>CALENDAR</div>
+        <div className={styles.title}>Calendar</div>
         <div className={styles.date}>
           {moment(CONSTANT.date.dateISO).format('YYYY. MM. DD(토) HH시')}
         </div>
@@ -61,7 +61,7 @@ export default function Component() {
         </div>
         <div className={styles.tableContainer}>
           <div className={styles.date}>
-            {moment(CONSTANT.date.dateISO).format('YYYY. MM')}
+            {moment(CONSTANT.date.dateISO).format('YYYY. MM.')}
           </div>
 
           <table>

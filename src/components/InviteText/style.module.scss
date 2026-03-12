@@ -2,24 +2,23 @@
   position: relative;
   text-align: center;
   align-items: center;
-  padding: 0 0 20px 0;
+  padding: 40px 20px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   font-family: 'Seoul Hangang';
 
   .info {
     display: flex;
-    flex-direction: column;
     align-content: center;
-    text-align: center;
+    justify-content: space-between;
     width: 100%;
-    padding: 15px 20px;
-    background: linear-gradient(#939393, #ebebeb);
-    color: white;
+    padding: 0 4px 15px;
+    border-bottom: 1px solid #6f6f6f;
+    color: #6f6f6f;
     margin-bottom: 40px;
     white-space: pre-wrap;
-    font-weight: 700;
+    font-style: oblique;
 
     span {
       margin-top: 10px;
@@ -33,6 +32,7 @@
     font-size: 1.4rem;
     line-height: 160%;
     color: var(--point-color);
+    margin-bottom: 8px;
   }
   .desc {
     font-size: 0.9rem;
@@ -59,12 +59,13 @@
     align-items: center;
     justify-content: center;
     gap: 6px;
-    padding: 15px;
-    background-color: var(--pink-color);
-    color: #ffffff;
-    font-weight: 600;
-    border-radius: 30px;
-    min-width: 200px;
+    padding: 8px 24px;
+    border: 1px solid #222;
+    color: #222;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    line-height: 160%;
+    margin-top: 10px;
   }
 }
 
@@ -73,7 +74,7 @@
   border-radius: 10px;
 
   .list {
-    padding: 25px 25px 24px;
+    padding: 20px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -82,10 +83,10 @@
     .item {
       display: flex;
       flex-direction: column;
-      gap: 5px;
       width: 50%;
       align-items: center;
       justify-content: center;
+      line-height: 160%;
 
       .title {
         white-space: pre-wrap;
@@ -99,14 +100,24 @@
       .btnList {
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 6px;
+        margin-top: 6px;
+        line-height: 100%;
 
         .btn {
-          background-color: var(--background-color-1);
-          padding: 4px 8px;
-          border-radius: 50px;
+          border: 1px solid #ccc;
+          border-radius: 2px;
           font-size: 0.8rem;
           cursor: pointer;
+          color: #333;
+
+          > a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            padding: 4px 8px;
+          }
         }
       }
     }

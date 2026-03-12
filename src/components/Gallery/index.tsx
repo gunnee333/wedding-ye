@@ -28,30 +28,28 @@ const images: string[] = [
   Wedding.photo20
 ];
 
-const photos = images.map((item, index) => ({ url: item, index }));
-
 export default function Component() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
     <>
       <div className={styles.container} id={CONSTANT.ELEMENT_ID.GALLERY}>
-        <div className={styles.title}>GALLERY</div>
+        <div className={styles.title}>Gallery</div>
         <div className={styles.listContainer}>
-          {photos.map((item) => (
+          {images.map((item, index) => (
             <div
-              key={item.index}
+              key={index}
               className={styles.photoItem}
-              onClick={() => setOpenIndex(item.index)}
+              onClick={() => setOpenIndex(index)}
             >
-              <img src={item.url} />
+              <img src={item} alt="wedding" />
             </div>
           ))}
         </div>
       </div>
       {openIndex !== null && (
         <ImageModal
-          photos={photos}
+          photos={images}
           index={openIndex}
           onClose={() => setOpenIndex(null)}
         />

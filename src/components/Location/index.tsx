@@ -82,12 +82,12 @@ export default function Component() {
               <span>티맵</span>
             </div>
           </div>
-          <img
+          {/* <img
             src={location_img}
             className={styles.mapImg}
             alt="지도 약도"
             onClick={() => setIsLotionPhoto(true)}
-          />
+          /> */}
         </div>
         <div className={styles.load}>
           <table>
@@ -146,7 +146,7 @@ export default function Component() {
         <ImageModal
           index={0}
           onClose={() => setIsLotionPhoto(false)}
-          photos={[{ url: location_img, index: 0 }]}
+          photos={[location_img]}
         />
       )}
     </>

@@ -21,19 +21,10 @@ export default function Component() {
     <>
       <div className={styles.container} id={CONSTANT.ELEMENT_ID.HOME}>
         <div className={styles.info}>
-          {moment(CONSTANT.date.dateISO).format('YYYY년 MM월 DD일')}, 토요일
-          오후 6시
-          {'\n'}
-          계산CN웨딩홀 2층 베르테홀
-          {'\n'}
-          <span>
-            On our wedding day, a new life begins. We'll share everything with
-            each other.
-            {'\n'}
-            Celebrate with us as we begin a lifetime of love
-          </span>
+          <div>wedding invitation</div>
+          <div>{moment(CONSTANT.date.dateISO).format('MM/DD')}</div>
         </div>
-        <div className={styles.title}>결혼합니다.</div>
+        <div className={styles.title}>Our Beginning</div>
         <div className={styles.desc}>
           평생 함께
           <br />
@@ -64,7 +55,9 @@ export default function Component() {
               <br />
               {CONSTANT.groomMom.name}
             </div>
-            <span>의 장남 {CONSTANT.groom.name}</span>
+            <span>
+              의 장남 <b>{CONSTANT.groom.name}</b>
+            </span>
           </div>
           <div>
             <div>
@@ -72,12 +65,14 @@ export default function Component() {
               <br />
               {CONSTANT.brideMom.name}
             </div>
-            <span>의 차녀 {CONSTANT.bride.name}</span>
+            <span>
+              의 차녀 <b>{CONSTANT.bride.name}</b>
+            </span>
           </div>
         </div>
         <div>
           <button onClick={() => setIsModal(true)}>
-            <Svgs.tel width={20} />
+            <Svgs.tel width={14} />
             연락하기
           </button>
         </div>
@@ -96,10 +91,14 @@ export default function Component() {
               <div className={styles.name}>{item.name}</div>
               <div className={styles.btnList}>
                 <div className={styles.btn}>
-                  <a href={`tel:${item.tel}`}>전화하기</a>
+                  <a href={`tel:${item.tel}`}>
+                    <Svgs.tel width={14} /> 전화
+                  </a>
                 </div>
                 <div className={styles.btn}>
-                  <a href={`sms:${item.tel}`}>문자보내기</a>
+                  <a href={`sms:${item.tel}`}>
+                    <Svgs.sms /> 문자
+                  </a>
                 </div>
               </div>
             </div>
