@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/wedding-ye/static/css/main.c344c303.css",
-    "main.js": "/wedding-ye/static/js/main.aa0c464f.js",
+    "main.css": "/wedding-ye/static/css/main.2c3c8d49.css",
+    "main.js": "/wedding-ye/static/js/main.c882f0d9.js",
     "static/js/453.e61543b3.chunk.js": "/wedding-ye/static/js/453.e61543b3.chunk.js",
     "static/media/photo12.jpeg": "/wedding-ye/static/media/photo12.16d5f453b25d8d1ee730.jpeg",
     "static/media/photo11.jpeg": "/wedding-ye/static/media/photo11.5c1b8343a9e515e5295b.jpeg",
     "static/media/photo20.jpeg": "/wedding-ye/static/media/photo20.9ce2e8826416c4708b76.jpeg",
+    "static/media/effect.png": "/wedding-ye/static/media/effect.e27620d5f933e50cb316.png",
     "static/media/photo16.jpeg": "/wedding-ye/static/media/photo16.fb5e669d09aa4c4c2029.jpeg",
     "static/media/photo18.jpeg": "/wedding-ye/static/media/photo18.6111b60c4805a8bb9b98.jpeg",
     "static/media/photo09.jpeg": "/wedding-ye/static/media/photo09.944e3daca274a657f079.jpeg",
     "static/media/photo19.jpeg": "/wedding-ye/static/media/photo19.c85b41fc3c02f234d2df.jpeg",
     "static/media/map.jpg": "/wedding-ye/static/media/map.228b4554208a965159e6.jpg",
     "static/media/photo10.jpeg": "/wedding-ye/static/media/photo10.7532aa7e6091f293fe95.jpeg",
+    "static/media/photo21.jpeg": "/wedding-ye/static/media/photo21.a643be2ffaa9e3da32ff.jpeg",
     "static/media/main.jpeg": "/wedding-ye/static/media/main.38b4a28536cf858320b3.jpeg",
     "static/media/photo13.jpeg": "/wedding-ye/static/media/photo13.3757c25a94fa194e87e9.jpeg",
-    "static/media/flower.gif": "/wedding-ye/static/media/flower.e06517a6de8b69cb8748.gif",
     "static/media/photo04.jpeg": "/wedding-ye/static/media/photo04.de2e3550ca186a226fe6.jpeg",
     "static/media/photo17.jpeg": "/wedding-ye/static/media/photo17.af9e2f12aa29fd87c5b1.jpeg",
     "static/media/photo01.jpeg": "/wedding-ye/static/media/photo01.4b4b2b98572214294f44.jpeg",
@@ -27,12 +28,12 @@
     "static/media/photo07.jpeg": "/wedding-ye/static/media/photo07.035448c6c261d1097ece.jpeg",
     "static/media/photo06.jpeg": "/wedding-ye/static/media/photo06.03eaf126aa5daf2bd2b8.jpeg",
     "index.html": "/wedding-ye/index.html",
-    "main.c344c303.css.map": "/wedding-ye/static/css/main.c344c303.css.map",
-    "main.aa0c464f.js.map": "/wedding-ye/static/js/main.aa0c464f.js.map",
+    "main.2c3c8d49.css.map": "/wedding-ye/static/css/main.2c3c8d49.css.map",
+    "main.c882f0d9.js.map": "/wedding-ye/static/js/main.c882f0d9.js.map",
     "453.e61543b3.chunk.js.map": "/wedding-ye/static/js/453.e61543b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c344c303.css",
-    "static/js/main.aa0c464f.js"
+    "static/css/main.2c3c8d49.css",
+    "static/js/main.c882f0d9.js"
   ]
 }
