@@ -18,4 +18,5 @@ export { default as photo17 } from './photo17.jpeg';
 export { default as photo18 } from './photo18.jpeg';
 export { default as photo19 } from './photo19.jpeg';
 export { default as photo20 } from './photo20.jpeg';
+export { default as photo21 } from './photo21.jpeg';
 export { default as main } from './main.jpeg';

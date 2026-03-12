@@ -8,15 +8,13 @@ export default function Component() {
       <img src={Wedding.main} alt="" />
       <div className={styles.bottomText}>
         <div className={styles.en}>
-          Our
-          <br />
-          Beautiful
-          <br />
-          Day
+          <div>Our</div>
+          <div>Beautiful</div>
+          <div>Day</div>
         </div>
       </div>
       <div className={styles.background}>
-        <img src={Images.flower} alt="flower" />
+        <img src={Images.effect} alt="flower" />
       </div>
     </div>
   );

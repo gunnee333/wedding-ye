@@ -1,5 +1,6 @@
 .container {
   position: relative;
+  overflow: hidden;
 
   img {
     width: 100%;
@@ -7,7 +8,7 @@
 
   .bottomText {
     position: absolute;
-    top: 40px;
+    top: 30px;
     left: 0;
     right: 0;
     display: flex;
@@ -17,16 +18,24 @@
 
     .en {
       font-family: 'Playwrite';
-      font-size: 3.5rem;
-      line-height: 100%;
+      font-size: 2.5rem;
+      line-height: 110%;
       text-align: center;
       color: #333333;
       font-style: oblique;
       rotate: 340deg;
       text-shadow: 0 0 3px #9f9f9f;
+      width: 70%;
+      white-space: nowrap;
 
-      > span {
-        width: 10px;
+      > div:nth-child(1) {
+        text-align: left;
+      }
+      > div:nth-child(2) {
+        text-align: center;
+      }
+      > div:nth-child(3) {
+        text-align: right;
       }
     }
   }
