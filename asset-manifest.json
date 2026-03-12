@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding-ye/static/css/main.2c3c8d49.css",
-    "main.js": "/wedding-ye/static/js/main.a07be1df.js",
+    "main.css": "/wedding-ye/static/css/main.e6e2e03b.css",
+    "main.js": "/wedding-ye/static/js/main.59baaa2f.js",
     "static/js/453.e61543b3.chunk.js": "/wedding-ye/static/js/453.e61543b3.chunk.js",
     "static/media/photo12.jpeg": "/wedding-ye/static/media/photo12.16d5f453b25d8d1ee730.jpeg",
     "static/media/photo11.jpeg": "/wedding-ye/static/media/photo11.5c1b8343a9e515e5295b.jpeg",
@@ -28,12 +28,12 @@
     "static/media/photo07.jpeg": "/wedding-ye/static/media/photo07.035448c6c261d1097ece.jpeg",
     "static/media/photo06.jpeg": "/wedding-ye/static/media/photo06.03eaf126aa5daf2bd2b8.jpeg",
     "index.html": "/wedding-ye/index.html",
-    "main.2c3c8d49.css.map": "/wedding-ye/static/css/main.2c3c8d49.css.map",
-    "main.a07be1df.js.map": "/wedding-ye/static/js/main.a07be1df.js.map",
+    "main.e6e2e03b.css.map": "/wedding-ye/static/css/main.e6e2e03b.css.map",
+    "main.59baaa2f.js.map": "/wedding-ye/static/js/main.59baaa2f.js.map",
     "453.e61543b3.chunk.js.map": "/wedding-ye/static/js/453.e61543b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c3c8d49.css",
-    "static/js/main.a07be1df.js"
+    "static/css/main.e6e2e03b.css",
+    "static/js/main.59baaa2f.js"
   ]
 }
