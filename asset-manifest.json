@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding-ye/static/css/main.d43e8dbb.css",
-    "main.js": "/wedding-ye/static/js/main.38e49ae6.js",
+    "main.css": "/wedding-ye/static/css/main.c344c303.css",
+    "main.js": "/wedding-ye/static/js/main.aa0c464f.js",
     "static/js/453.e61543b3.chunk.js": "/wedding-ye/static/js/453.e61543b3.chunk.js",
     "static/media/photo12.jpeg": "/wedding-ye/static/media/photo12.16d5f453b25d8d1ee730.jpeg",
     "static/media/photo11.jpeg": "/wedding-ye/static/media/photo11.5c1b8343a9e515e5295b.jpeg",
@@ -14,6 +14,7 @@
     "static/media/photo10.jpeg": "/wedding-ye/static/media/photo10.7532aa7e6091f293fe95.jpeg",
     "static/media/main.jpeg": "/wedding-ye/static/media/main.38b4a28536cf858320b3.jpeg",
     "static/media/photo13.jpeg": "/wedding-ye/static/media/photo13.3757c25a94fa194e87e9.jpeg",
+    "static/media/flower.gif": "/wedding-ye/static/media/flower.e06517a6de8b69cb8748.gif",
     "static/media/photo04.jpeg": "/wedding-ye/static/media/photo04.de2e3550ca186a226fe6.jpeg",
     "static/media/photo17.jpeg": "/wedding-ye/static/media/photo17.af9e2f12aa29fd87c5b1.jpeg",
     "static/media/photo01.jpeg": "/wedding-ye/static/media/photo01.4b4b2b98572214294f44.jpeg",
@@ -26,12 +27,12 @@
     "static/media/photo07.jpeg": "/wedding-ye/static/media/photo07.035448c6c261d1097ece.jpeg",
     "static/media/photo06.jpeg": "/wedding-ye/static/media/photo06.03eaf126aa5daf2bd2b8.jpeg",
     "index.html": "/wedding-ye/index.html",
-    "main.d43e8dbb.css.map": "/wedding-ye/static/css/main.d43e8dbb.css.map",
-    "main.38e49ae6.js.map": "/wedding-ye/static/js/main.38e49ae6.js.map",
+    "main.c344c303.css.map": "/wedding-ye/static/css/main.c344c303.css.map",
+    "main.aa0c464f.js.map": "/wedding-ye/static/js/main.aa0c464f.js.map",
     "453.e61543b3.chunk.js.map": "/wedding-ye/static/js/453.e61543b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d43e8dbb.css",
-    "static/js/main.38e49ae6.js"
+    "static/css/main.c344c303.css",
+    "static/js/main.aa0c464f.js"
   ]
 }
