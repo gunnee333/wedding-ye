@@ -97,7 +97,7 @@ export default function Component() {
                 <td>
                   <div>
                     <span style={{ color: '#497bbd' }}>인천지하철</span> 계산역
-                    4번 출구
+                    1번 출구
                   </div>
                 </td>
               </tr>
