@@ -88,7 +88,7 @@ export function ImageModal({ photos, index, onClose }: Props) {
           </Swiper>
         </div>
 
-        {photos.length > 1 && (
+        {/* {photos.length > 1 && (
           <div className={styles.arrowContainer}>
             <button
               className={[styles.iconBtn, styles.prev].join(' ')}
@@ -105,7 +105,7 @@ export function ImageModal({ photos, index, onClose }: Props) {
               <Svgs.arrow fill="#ffffff" />
             </button>
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );
