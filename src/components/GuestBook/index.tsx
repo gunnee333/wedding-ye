@@ -173,9 +173,6 @@ export default function Component() {
           <div key={c.id} className={styles.commentItem}>
             <div className={styles.commentHead}>
               <div className={styles.commentName}>{c.name}</div>
-              <div className={styles.commentDate}>
-                {c.createdAt ? formatDate(c.createdAt) : ''}
-              </div>
             </div>
 
             <div className={styles.commentMsg}>
