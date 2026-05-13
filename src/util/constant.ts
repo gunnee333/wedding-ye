@@ -60,7 +60,7 @@ const constants = {
   brideMom: {
     name: '박은희',
     bank: '국민은행',
-    account: '720501-01-100520',
+    account: '720502-01-100520',
     tel: '01063241952'
   } as IPergson
 };
